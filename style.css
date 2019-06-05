@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+/* Header ----------------------------------------------------------------------------------------- */
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 25px 0;
+}
+
+header.scroll {
+  background-color: red;
+}
+
+.headerMenu {
+  display: inline-block;
+}
+
+.headerMenuItem {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.headerMenuItem:not(:last-child) {
+  margin-right: 25px;
+}
+
+/* Hero section ------------------------------------------------------------------------------ */
+
+#heroSection {
+  background-image: url("./img/img-background.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.messageAndButton {
+  color: white;
+  max-width: 700px;
+}
+
+.heroHeader {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.heroMessage {
+  line-height: 30px;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 12px 33px;
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.heroPhoneDiv {
+  width: 230px;
+}
+
+.heroPhone {
+  width: 100%;
+}
+
+/* About section---------------------------------------------------------------------------------- */
+
+#about {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.aboutCopy {
+  width: 500px;
+  margin-left: 80px;
+}
+
+.meet {
+  font-size: 18px;
+  color: #696969;
+}
+
+.subHeader {
+  font-size: 30px;
+  font-weight: 500;
+  color: #272727;
+}
+
+.aboutDescription {
+  color: #272727;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  border: 1px solid #ff5700;
+  color: #ff5700;
+  border-radius: 100px;
+  padding: 25px;
+  margin-right: 20px;
+}
+
+.featureName {
+  color: #272727;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.featureDescription {
+  color: #272727;
+  font-size: 14px;
+  line-height: 28px;
+}
