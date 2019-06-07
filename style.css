@@ -19,7 +19,7 @@ header {
 }
 
 header.scroll {
-  background-color: red;
+  background-color: #fe601a;
 }
 
 .headerMenu {
@@ -91,7 +91,7 @@ header.scroll {
 
 /* About section---------------------------------------------------------------------------------- */
 
-#about {
+#aboutSection {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -113,6 +113,7 @@ header.scroll {
   font-size: 30px;
   font-weight: 500;
   color: #272727;
+  margin-bottom: 10px;
 }
 
 .aboutDescription {
@@ -131,18 +132,85 @@ header.scroll {
   border: 1px solid #ff5700;
   color: #ff5700;
   border-radius: 100px;
-  padding: 25px;
+  width: 60px;
+  height: 60px;
   margin-right: 20px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
 
 .featureName {
   color: #272727;
   font-size: 18px;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 .featureDescription {
   color: #272727;
   font-size: 14px;
   line-height: 28px;
+}
+
+/* Features section ------------------------------------------------------------------------------- */
+
+#featuresSection {
+  min-height: 100vh;
+  background-color: #ff6818;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#featuresSection p,
+#featuresSection span,
+#featuresSection h2,
+#featuresSection h3 {
+  color: white;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.featuresImgDiv {
+  width: 350px;
+  margin: 0 35px;
+}
+
+.featuresImg {
+  width: 100%;
+}
+
+.featureList {
+  margin-top: 120px;
+}
+
+.featureListLeft {
+  text-align: right;
+}
+
+.featureBlock {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.featureListLeft .featureBlock {
+  align-items: flex-end;
+}
+
+.featureIcon {
+  margin: 0;
+  border-color: white;
+  background-color: white;
+  color: #ff6818;
 }
